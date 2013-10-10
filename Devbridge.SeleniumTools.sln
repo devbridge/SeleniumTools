@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devbridge.SeleniumTools.Examples.Web.Tests", "DevBridge.SeleniumTools.Examples.Web.Tests\Devbridge.SeleniumTools.Examples.Web.Tests.csproj", "{32CB23F0-E9C6-49F6-8515-EA1E2C8455BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devbridge.SeleniumTools.NUnitExtensions", "DevBridge.SeleniumTools.NUnitExtensions\Devbridge.SeleniumTools.NUnitExtensions.csproj", "{1D6F4A52-4C58-41B7-AAD8-0974820311DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{DCE9C588-1D60-447B-B7EF-CBCD8B18A8D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{64740165-E2F5-4DE1-988B-ACF186F800C6}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+		SharedAssemblyInfo.cs = SharedAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E168BEAE-3128-4FA8-BA84-C04BFABA1897}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32CB23F0-E9C6-49F6-8515-EA1E2C8455BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32CB23F0-E9C6-49F6-8515-EA1E2C8455BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32CB23F0-E9C6-49F6-8515-EA1E2C8455BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32CB23F0-E9C6-49F6-8515-EA1E2C8455BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D6F4A52-4C58-41B7-AAD8-0974820311DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D6F4A52-4C58-41B7-AAD8-0974820311DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D6F4A52-4C58-41B7-AAD8-0974820311DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D6F4A52-4C58-41B7-AAD8-0974820311DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32CB23F0-E9C6-49F6-8515-EA1E2C8455BF} = {DCE9C588-1D60-447B-B7EF-CBCD8B18A8D3}
+	EndGlobalSection
+EndGlobal
