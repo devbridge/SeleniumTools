@@ -9,8 +9,8 @@ To install Selenium Tools library, run the following command in the Package Mana
 ##Configuration
 You have two options to configure Selenium Tools library. The second one is very useful if you don't want to commit credentials to source control.
 
-###Add following settings to the app.config file:
-  <appSettings>
+###Add following app settings to the app.config file:
+  
     <!-- An URL to access a Selenium Grid Hub. -->
     <add key="DEVBRIDGE_SELENIUM_GRID_URL" value="http://ondemand.saucelabs.com:80/wd/hub"/>
 
@@ -31,9 +31,8 @@ You have two options to configure Selenium Tools library. The second one is very
 
     <!-- A browser version. -->
     <add key="DEVBRIDGE_SELENIUM_GRID_VERSION" value="10" />
-  </appSettings>
-
-###Add following settings as an System Environnement Variables:
+  
+###Add following settings as an System Environment Variables:
 
 `DEVBRIDGE_SELENIUM_GRID_URL=http://ondemand.saucelabs.com:80/wd/hub`
 
