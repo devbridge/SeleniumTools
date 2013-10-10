@@ -1,4 +1,4 @@
-#Selenium Tools for NUnit
+﻿#Selenium Tools for NUnit
 A tools library with Selenium Grid Hub extensions for the NUnit unit testing framework.
 
 ##Install
@@ -49,3 +49,15 @@ You have two options to configure Selenium Tools library. The second one is very
 `DEVBRIDGE_SELENIUM_GRID_VERSION=10`
 
 Please register on https://saucelabs.com/ or http://www.browserstack.com/ to get Selenium Grid Hub credentials.
+
+
+##License
+Devbridge Selenium Tools are freely distributable under the 
+terms of an Apache V2 [license](https://github.com/devbridge/SeleniumTools/blob/master/LICENSE).
+
+
+##Authors
+
+Paulius Mačiulis / [@pauliusmac](https://twitter.com/pauliusmac)
+<br>
+Rimvydas Urbonas / [@rimvydasurbonas](https://twitter.com/RimvydasUrbonas)
