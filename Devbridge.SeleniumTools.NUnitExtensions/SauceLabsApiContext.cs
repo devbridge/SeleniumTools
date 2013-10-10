@@ -5,7 +5,7 @@ using Devbridge.SeleniumTools.NUnitExtensions.Contracts;
 
 namespace Devbridge.SeleniumTools.NUnitExtensions
 {
-    public class SauceLabsContext : ISeleniumHubContext
+    public class SauceLabsApiContext : ISeleniumHubApiContext
     {
         private WebClient webClient;
         private readonly string sessionId;
@@ -19,7 +19,7 @@ namespace Devbridge.SeleniumTools.NUnitExtensions
             get { return HubUrl + userName + "/jobs/"; }
         }
 
-        public SauceLabsContext(string sessionId, string userName, string password)
+        public SauceLabsApiContext(string sessionId, string userName, string password)
         {
             this.sessionId = sessionId;
             this.userName = userName;

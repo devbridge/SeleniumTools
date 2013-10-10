@@ -20,7 +20,7 @@ namespace Devbridge.SeleniumTools.NUnitExtensions
 
         private IWebDriver driver;
 
-        private ISeleniumHubContext apiContext;
+        private ISeleniumHubApiContext apiContext;
 
         private readonly HubApiFactory hubApiDriverFactory = new HubApiFactory();
 
@@ -34,7 +34,7 @@ namespace Devbridge.SeleniumTools.NUnitExtensions
             }
         }
 
-        protected ISeleniumHubContext ApiContext
+        protected ISeleniumHubApiContext ApiContext
         {
             get
             {

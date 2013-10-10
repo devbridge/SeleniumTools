@@ -13,7 +13,7 @@ namespace Devbridge.SeleniumTools.Examples.Web.Tests
     public class GoogleComTests : SeleniumTestBase
     {
         [Test(Description = "Should find a www.devbridge.com website and navigate to it.")]
-        public void ShouldFindDevBridge()
+        public void ShouldFindDevbridge()
         {                       
             Driver.Navigate().GoToUrl("http://www.google.com");
             Console.WriteLine("www.google.com opened.");
@@ -29,8 +29,8 @@ namespace Devbridge.SeleniumTools.Examples.Web.Tests
 
             devbridgecomLink.Click();
             Console.WriteLine("Clicked on www.devbridge.com link.");
-            
-            wait.Until(webDriver => webDriver.FindElement(By.ClassName("fs-credits")));
+
+            wait.Until(webDriver => webDriver.FindElement(By.ClassName("news-block")));
             Console.WriteLine("www.devbridge.com opened.");
         }
     }

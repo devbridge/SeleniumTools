@@ -2,7 +2,7 @@
 
 namespace Devbridge.SeleniumTools.NUnitExtensions.Contracts
 {
-    public interface ISeleniumHubContext : IDisposable
+    public interface ISeleniumHubApiContext : IDisposable
     {
         string HubUrl { get; set; }
 

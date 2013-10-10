@@ -57,12 +57,13 @@
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="Contracts\ISeleniumHubContext.cs" />
+    <Compile Include="Contracts\ISeleniumHubApiContext.cs" />
+    <Compile Include="EmptyHubApiContext.cs" />
     <Compile Include="HubApiFactory.cs" />
     <Compile Include="Options\OptionsAccessor.cs" />
     <Compile Include="Options\TestRunOptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SauceLabsContext.cs" />
+    <Compile Include="SauceLabsApiContext.cs" />
     <Compile Include="SeleniumTestBase.cs" />
     <Compile Include="WebDriverFactory.cs" />
     <Compile Include="WebElementWait.cs" />
